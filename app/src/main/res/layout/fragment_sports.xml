@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/toolbar"
+    android:orientation="horizontal"
+
+    android:weightSum="100"
+    tools:context=".sports">
+
+    <!-- TODO: Update blank fragment layout -->
+    <!--        android:text="Sports"-->
+    <!--        android:textColor="@android:color/white"-->
+    <!--        android:textSize="40dp"-->
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_weight="66.6"
+        android:gravity="center"
+        android:text="Text1"
+        android:textAlignment="center"
+        android:textColor="@android:color/white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="33.3">
+
+        <TextView
+            android:id="@+id/textview2"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Text2" />
+
+        <TextView
+            android:id="@+id/textview3"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Text3" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
